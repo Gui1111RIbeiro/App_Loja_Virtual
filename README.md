@@ -25,7 +25,7 @@ This project was developed as part of my study on the flutter framework. I was c
 
 # 📁 Access the Project
 
-**Is found in Github: "https://github.com/Gui1111RIbeiro/App_Loja_Virtual"**
+**Is found in Github: "https://github.com/GuiQueirozRibeiro/App_Loja_Virtual"**
 
 # 📝 Requirements
 
