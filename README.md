@@ -1,8 +1,8 @@
-APP Receitas
+APP Shop
 ==========
 ## A Flutter Project
 
-![](https://macmagazine.com.br/wp-content/uploads/2011/10/26-almoco_icon.png)
+![](https://icon-library.com/images/shopping-app-icon/shopping-app-icon-4.jpg)
 
 # Index
 
@@ -25,7 +25,7 @@ This project was developed as part of my study on the flutter framework. I was c
 
 # 📁 Access the Project
 
-**Is found in Github: "https://github.com/Gui1111RIbeiro/App_Receitas"**
+**Is found in Github: "https://github.com/Gui1111RIbeiro/App_Loja_Virtual"**
 
 # 📝 Requirements
 
