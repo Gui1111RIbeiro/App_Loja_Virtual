@@ -21,7 +21,7 @@ APP Shop
 
 # Project Description
 
-This project was developed as part of my study on the flutter framework. I was curious how to develop a mobile app, so I started to study and develop many apps to improve. [Describe]
+This project was developed as part of my study on the flutter framework. I was curious how to develop a mobile app, so I started to study and develop many apps to improve. This was the best and biggest project I ever did, because I used almost all the knowledge I learned. I tried to focus a lot on the beauty of the application and offer as many functions as accounts, database, location, chat, fake purchases, and other things. I can say that it really was a complete app
 
 # 📁 Access the Project
 
@@ -39,17 +39,27 @@ This project was developed as part of my study on the flutter framework. I was c
  
 - ## Install and configure AndroidStudio in your machine
 
- **https://developer.android.com/studio**
+**https://developer.android.com/studio**
 
 - ## Create a google maps account to use the API
 
- **https://mapsplatform.google.com/**
+**https://mapsplatform.google.com/**
+
+- ## Create a firebase account
+
+**https://firebase.google.com/?hl=pt**
 
 # 🔨 Project Features
 
 - `Feature 1`: icon image
-- `Feature 2`: split screen 
+- `Feature 2`: split screen
 - `Feature 3`: compatible for both devices IOS and Android
+- `Feature 4`: favorite your products
+- `Feature 5`: create a product using the camera or an image on the internet
+- `Feature 6`: use the location also to fill in the product data
+- `Feature 7`: create an account where data is saved for each user
+- `Feature 8`: buy the products and see the order history later
+- `Feature 9`: chat with the product creator
 
 # ▶ Run the Project
 
@@ -68,5 +78,4 @@ flutter run
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+samples, guidance on mobile development, and a full API reference
