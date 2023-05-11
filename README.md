@@ -1,4 +1,4 @@
-APP Shop
+APP Online Store
 ==========
 ## A Flutter Project
 
@@ -17,7 +17,7 @@ APP Shop
 
 # Project Status
 
-![Success Badge](https://img.shields.io/badge/State-Success-brightgreen?style=for-the-badge)
+![Badge Success](https://img.shields.io/badge/State-Success-brightgreen?style=for-the-badge)
 
 # Project Description
 
