@@ -17,7 +17,7 @@ APP Shop
 
 # Project Status
 
-![Sucess Badge](https://img.shields.io/badge/State-Sucess-brightgreen?style=for-the-badge)
+![Success Badge](https://img.shields.io/badge/State-Success-brightgreen?style=for-the-badge)
 
 # Project Description
 
