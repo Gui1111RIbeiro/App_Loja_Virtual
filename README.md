@@ -11,12 +11,12 @@
 * [Acessar o Projeto](#acessar-o-projeto)
 * [Requisitos](#requisitos)
 * [Funcionalidades do Projeto](#funcionalidades-do-projeto)
-* [Executando o Projeto](#executando-o-projeto)
+* [Executar o Projeto](#executar-o-projeto)
 * [Autores](#autores)
 
 # Status do Projeto
 
-![Success Badge](https://img.shields.io/badge/Status-Sucesso-brightgreen?style=for-the-badge)
+![Badge Success](https://img.shields.io/badge/Status-Sucesso-brightgreen?style=for-the-badge)
 
 # Descrição do Projeto
 
@@ -60,7 +60,7 @@ Este projeto foi desenvolvido como parte do meu estudo no framework Flutter. Eu 
 - `Funcionalidade 8`: comprar os produtos e ver o histórico de pedidos posteriormente
 - `Funcionalidade 9`: conversar com o criador do produto
 
-# ▶ Executando o Projeto
+# ▶ Executar o Projeto
 
 - `Para executar o programa, use:`
 
