@@ -8,11 +8,11 @@
 * [Índice](#índice)
 * [Status do Projeto](#status-do-projeto)
 * [Descrição do Projeto](#descrição-do-projeto)
-* [Acessar o Projeto](#acessar-o-projeto)
-* [Requisitos](#requisitos)
-* [Funcionalidades do Projeto](#funcionalidades-do-projeto)
-* [Executar o Projeto](#executar-o-projeto)
-* [Autores](#autores)
+* [Acessar o Projeto](#-acessar-o-projeto)
+* [Requisitos](#-requisitos)
+* [Funcionalidades do Projeto](#-funcionalidades-do-projeto)
+* [Executar o Projeto](#-executar-o-projeto)
+* [Autores](#-autores)
 
 # Status do Projeto
 
