@@ -16,7 +16,7 @@
 
 # Status do Projeto
 
-![Sucess Badge](https://img.shields.io/badge/Status-Sucesso-brightgreen?style=for-the-badge)
+![Success Badge](https://img.shields.io/badge/Status-Sucesso-brightgreen?style=for-the-badge)
 
 # Descrição do Projeto
 
