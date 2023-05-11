@@ -68,7 +68,7 @@ Este projeto foi desenvolvido como parte do meu estudo no framework Flutter. Eu 
 flutter run
 ```
 
-👨‍💻 Autores
+# 👨‍💻 Autores
 
 | [<img src="https://avatars.githubusercontent.com/u/70274921?s=400&u=c1688d6fcd13223bfe1093c6d16b3b6b646545fe&v=4" width=115><br><sub>Guilherme Queiroz Ribeiro</sub>](https://github.com/GuiQueirozRibeiro)
 | :---: |
