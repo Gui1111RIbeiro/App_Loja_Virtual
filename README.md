@@ -1,81 +1,80 @@
-APP Shop
-==========
-## A Flutter Project
+# APP Loja Virtual
+## Um projeto Flutter
 
 ![](https://icon-library.com/images/shopping-app-icon/shopping-app-icon-4.jpg)
 
-# Index
+# Índice
 
-* [Index](#index)
-* [Project Status](#project-status)
-* [Project Description](#project-description)
-* [Access the Project](#-access-the-project)
-* [Requirements](#-requirements)
-* [Project Features](#-project-features)
-* [Run the Project](#-run-the-project)
-* [Authors](#-authors)
+* [Índice](#índice)
+* [Status do Projeto](#status-do-projeto)
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Acessar o Projeto](#acessar-o-projeto)
+* [Requisitos](#requisitos)
+* [Funcionalidades do Projeto](#funcionalidades-do-projeto)
+* [Executando o Projeto](#executando-o-projeto)
+* [Autores](#autores)
 
-# Project Status
+# Status do Projeto
 
 ![](https://img.shields.io/badge/state-success-brightgreen/github/deployments/:user/:repo/:environment)
 
-# Project Description
+# Descrição do Projeto
 
-This project was developed as part of my study on the flutter framework. I was curious how to develop a mobile app, so I started to study and develop many apps to improve. This was the best and biggest project I ever did, because I used almost all the knowledge I learned. I tried to focus a lot on the beauty of the application and offer as many functions as accounts, database, location, chat, fake purchases, and other things. I can say that it really was a complete app
+Este projeto foi desenvolvido como parte do meu estudo no framework Flutter. Eu estava curioso para aprender como desenvolver um aplicativo móvel, então comecei a estudar e desenvolver vários aplicativos para melhorar. Este foi o melhor e maior projeto que já fiz, porque usei quase todo o conhecimento que aprendi. Tentei me concentrar muito na beleza do aplicativo e oferecer o máximo de funções possível, como contas, banco de dados, localização, chat, compras falsas e outras coisas. Posso dizer que realmente foi um aplicativo completo.
 
-# 📁 Access the Project
+# 📁 Acessar o Projeto
 
-**Is found in Github: "https://github.com/GuiQueirozRibeiro/App_Loja_Virtual"**
+**O projeto está disponível no Github: "https://github.com/GuiQueirozRibeiro/App_Loja_Virtual"**
 
-# 📝 Requirements
+# 📝 Requisitos
 
-- ## Install the DartSDK in your machine
+- ## Instale o DartSDK em sua máquina
 
 **https://dart.dev/get-dart**
 
-- ## Install the FlutterSDK in your machine
+- ## Instale o FlutterSDK em sua máquina
 
 **https://docs.flutter.dev/get-started/install**
  
-- ## Install and configure AndroidStudio in your machine
+- ## Instale e configure o Android Studio em sua máquina
 
 **https://developer.android.com/studio**
 
-- ## Create a google maps account to use the API
+- ## Crie uma conta no Google Maps para usar a API
 
 **https://mapsplatform.google.com/**
 
-- ## Create a firebase account
+- ## Crie uma conta no Firebase
 
 **https://firebase.google.com/?hl=pt**
 
-# 🔨 Project Features
+# 🔨 Funcionalidades do Projeto
 
-- `Feature 1`: icon image
-- `Feature 2`: split screen
-- `Feature 3`: compatible for both devices IOS and Android
-- `Feature 4`: favorite your products
-- `Feature 5`: create a product using the camera or an image on the internet
-- `Feature 6`: use the location also to fill in the product data
-- `Feature 7`: create an account where data is saved for each user
-- `Feature 8`: buy the products and see the order history later
-- `Feature 9`: chat with the product creator
+- `Funcionalidade 1`: imagem do ícone
+- `Funcionalidade 2`: tela de splash
+- `Funcionalidade 3`: compatível com dispositivos IOS e Android
+- `Funcionalidade 4`: favoritar seus produtos
+- `Funcionalidade 5`: criar um produto usando a câmera ou uma imagem na internet
+- `Funcionalidade 6`: usar a localização para preencher os dados do produto
+- `Funcionalidade 7`: criar uma conta onde os dados são salvos para cada usuário
+- `Funcionalidade 8`: comprar os produtos e ver o histórico de pedidos posteriormente
+- `Funcionalidade 9`: conversar com o criador do produto
 
-# ▶ Run the Project
+# ▶ Executando o Projeto
 
-- `To execute the programm, use:`
+- `Para executar o programa, use:`
 
 ```console
 flutter run
 ```
 
-# 👨‍💻 Authors
+👨‍💻 Autores
 
 | [<img src="https://avatars.githubusercontent.com/u/70274921?s=400&u=c1688d6fcd13223bfe1093c6d16b3b6b646545fe&v=4" width=115><br><sub>Guilherme Queiroz Ribeiro</sub>](https://github.com/GuiQueirozRibeiro)
 | :---: |
 
-### End
+### Fim
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference
+Para obter ajuda para começar a desenvolver com o Flutter, consulte a
+[documentação online](https://docs.flutter.dev/), que oferece tutoriais,
+exemplos, orientações sobre desenvolvimento móvel e uma referência completa da API.
