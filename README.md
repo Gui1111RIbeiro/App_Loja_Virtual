@@ -9,7 +9,7 @@ APP Loja Virtual
 * [Índice](#índice)
 * [Status do Projeto](#status-do-projeto)
 * [Descrição do Projeto](#descrição-do-projeto)
-* [Acessar o Projeto](#-acessar-o-projeto)
+* [Acesso ao Projeto](#-acesso-ao-projeto)
 * [Requisitos](#-requisitos)
 * [Funcionalidades do Projeto](#-funcionalidades-do-projeto)
 * [Executar o Projeto](#-executar-o-projeto)
@@ -23,7 +23,7 @@ APP Loja Virtual
 
 Este projeto foi desenvolvido como parte do meu estudo no framework Flutter. Eu estava curioso para aprender como desenvolver um aplicativo móvel, então comecei a estudar e desenvolver vários aplicativos para melhorar. Este foi o melhor e maior projeto que já fiz, porque usei quase todo o conhecimento que aprendi. Tentei me concentrar muito na beleza do aplicativo e oferecer o máximo de funções possível, como contas, banco de dados, localização, chat, compras falsas e outras coisas. Posso dizer que realmente foi um aplicativo completo.
 
-# 📁 Acessar o Projeto
+# 📁 Acesso ao Projeto
 
 **Está disponível no Github: "https://github.com/GuiQueirozRibeiro/App_Loja_Virtual"**
 
