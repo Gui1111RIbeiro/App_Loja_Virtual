@@ -1,4 +1,5 @@
-# APP Loja Virtual
+APP Loja Virtual
+==========
 ## Um projeto Flutter
 
 ![](https://icon-library.com/images/shopping-app-icon/shopping-app-icon-4.jpg)
@@ -24,7 +25,7 @@ Este projeto foi desenvolvido como parte do meu estudo no framework Flutter. Eu 
 
 # 📁 Acessar o Projeto
 
-**O projeto está disponível no Github: "https://github.com/GuiQueirozRibeiro/App_Loja_Virtual"**
+**Está disponível no Github: "https://github.com/GuiQueirozRibeiro/App_Loja_Virtual"**
 
 # 📝 Requisitos
 
