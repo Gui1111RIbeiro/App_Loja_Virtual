@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../components/app_drawer.dart';
-import '../components/badge.dart';
+import '../components/badge.dart' as bad;
 import '../components/product_grid.dart';
 import '../models/cart.dart';
 import '../models/product_list.dart';
@@ -80,7 +80,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
               },
               icon: const Icon(Icons.shopping_cart),
             ),
-            builder: (ctx, cart, child) => Badge(
+            builder: (ctx, cart, child) => bad.Badge(
               value: cart.itemsCount.toString(),
               child: child!,
             ),
