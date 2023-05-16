@@ -5,22 +5,15 @@ import '../components/app_drawer.dart';
 import '../components/order.dart';
 import '../models/order_list.dart';
 
-class OrdersScreen extends StatelessWidget {
-  const OrdersScreen({Key? key}) : super(key: key);
-
-  Future<void> _refreshOrders(BuildContext context) {
-    return Provider.of<OrderList>(
-      context,
-      listen: false,
-    ).loadOrders();
-  }
+class OrderScreen extends StatelessWidget {
+  const OrderScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
         title: const Text('Meus Pedidos'),
+        centerTitle: true,
       ),
       drawer: const AppDrawer(),
       body: FutureBuilder(
@@ -34,12 +27,9 @@ class OrdersScreen extends StatelessWidget {
             );
           } else {
             return Consumer<OrderList>(
-              builder: (ctx, orders, child) => RefreshIndicator(
-                onRefresh: () => _refreshOrders(context),
-                child: ListView.builder(
-                  itemCount: orders.itemsCount,
-                  itemBuilder: (ctx, i) => OrderWidget(order: orders.items[i]),
-                ),
+              builder: (ctx, orders, child) => ListView.builder(
+                itemCount: orders.itemsCount,
+                itemBuilder: (ctx, i) => OrderWidget(order: orders.items[i]),
               ),
             );
           }

@@ -51,7 +51,7 @@ class AuthScreen extends StatelessWidget {
                         ],
                       ),
                       child: const Text(
-                        'SNAP!',
+                        'Loja',
                         style: TextStyle(
                           fontSize: 45,
                           fontFamily: 'Anton',

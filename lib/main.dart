@@ -7,11 +7,10 @@ import 'models/order_list.dart';
 import 'models/product_list.dart';
 import 'screens/auth_or_home_screen.dart';
 import 'screens/cart_screen.dart';
-import 'screens/orders_screen.dart';
-import 'screens/place_detail_screen.dart';
-import 'screens/products_detail_screen.dart';
-import 'screens/products_form_screen.dart';
-import 'screens/products_screen.dart';
+import 'screens/order_screen.dart';
+import 'screens/product_detail_screen.dart';
+import 'screens/product_form_screen.dart';
+import 'screens/product_screen.dart';
 import 'utils/app_routes.dart';
 import 'utils/custom_route.dart';
 
@@ -68,13 +67,12 @@ class MyApp extends StatelessWidget {
           ),
         ),
         routes: {
-          AppRoutes.authOrHome: (ctx) => AuthOrHomeScreen(),
-          AppRoutes.productsDetail: (ctx) => ProductsDetailScreen(),
-          AppRoutes.cart: (ctx) => CartScreen(),
-          AppRoutes.orders: (ctx) => OrdersScreen(),
-          AppRoutes.products: (ctx) => ProductsScreen(),
-          AppRoutes.productsForm: (ctx) => ProductsFormScreen(),
-          AppRoutes.placeDetail: (ctx) => const PlaceDetailScreen(),
+          AppRoutes.authOrHome: (ctx) => const AuthOrHomeScreen(),
+          AppRoutes.productDetail: (ctx) => const ProductDetailScreen(),
+          AppRoutes.cart: (ctx) => const CartScreen(),
+          AppRoutes.order: (ctx) => const OrderScreen(),
+          AppRoutes.product: (ctx) => const ProductScreen(),
+          AppRoutes.productForm: (ctx) => const ProductFormScreen(),
         },
         debugShowCheckedModeBanner: false,
       ),

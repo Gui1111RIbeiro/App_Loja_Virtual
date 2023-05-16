@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../components/app_drawer.dart';
-import '../components/badge.dart';
+import '../components/badge.dart' as bad;
 import '../components/product_grid.dart';
 import '../models/cart.dart';
 import '../models/product_list.dart';
@@ -13,14 +13,14 @@ enum FilterOptions {
   all,
 }
 
-class ProductsOverviewScreen extends StatefulWidget {
-  const ProductsOverviewScreen({Key? key}) : super(key: key);
+class ProductOverviewScreen extends StatefulWidget {
+  const ProductOverviewScreen({Key? key}) : super(key: key);
 
   @override
-  State<ProductsOverviewScreen> createState() => _ProductsOverviewScreenState();
+  State<ProductOverviewScreen> createState() => _ProductOverviewScreenState();
 }
 
-class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
+class _ProductOverviewScreenState extends State<ProductOverviewScreen> {
   bool _showFavoriteOnly = false;
   bool _isLoading = true;
 
@@ -49,7 +49,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('SNAP!'),
+        title: const Text('Loja'),
         actions: [
           PopupMenuButton(
             icon: const Icon(Icons.more_vert),
@@ -80,7 +80,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
               },
               icon: const Icon(Icons.shopping_cart),
             ),
-            builder: (ctx, cart, child) => Badge(
+            builder: (ctx, cart, child) => bad.Badge(
               value: cart.itemsCount.toString(),
               child: child!,
             ),

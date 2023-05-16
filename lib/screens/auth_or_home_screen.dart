@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'auth_screen.dart';
-import 'products_overview_screen.dart';
+import 'product_overview_screen.dart';
 import '../models/auth.dart';
 
 class AuthOrHomeScreen extends StatelessWidget {
-  const AuthOrHomeScreen({super.key});
+  const AuthOrHomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,14 +15,14 @@ class AuthOrHomeScreen extends StatelessWidget {
       future: auth.tryAutoLogin(),
       builder: (ctx, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return Center(child: CircularProgressIndicator());
+          return const Center(child: CircularProgressIndicator());
         } else if (snapshot.error != null) {
-          return Center(
+          return const Center(
             child: Text('Ocorreu um erro!'),
           );
         } else {
           return auth.isAuth
-              ? const ProductsOverviewScreen()
+              ? const ProductOverviewScreen()
               : const AuthScreen();
         }
       },

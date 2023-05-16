@@ -7,8 +7,8 @@ import '../models/auth.dart';
 import '../models/product_list.dart';
 import '../utils/app_routes.dart';
 
-class ProductsScreen extends StatelessWidget {
-  ProductsScreen();
+class ProductScreen extends StatelessWidget {
+  const ProductScreen({Key? key}) : super(key: key);
 
   Future<void> _refreshProducts(BuildContext context) {
     return Provider.of<ProductList>(
@@ -29,7 +29,7 @@ class ProductsScreen extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.add),
             onPressed: () {
-              Navigator.of(context).pushNamed(AppRoutes.productsForm);
+              Navigator.of(context).pushNamed(AppRoutes.productForm);
             },
           )
         ],
