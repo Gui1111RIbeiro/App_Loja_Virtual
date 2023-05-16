@@ -10,7 +10,7 @@ import '../utils/constants.dart';
 class ProductList with ChangeNotifier {
   final String _token;
   final String _userId;
-  List<Product> _items = [];
+  final List<Product> _items;
 
   List<Product> get items => [..._items];
   List<Product> get favoriteItems =>
