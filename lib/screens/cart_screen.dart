@@ -6,7 +6,7 @@ import '../models/cart.dart';
 import '../models/order_list.dart';
 
 class CartScreen extends StatelessWidget {
-  const CartScreen({super.key});
+  const CartScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +16,7 @@ class CartScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Carrinho'),
+        centerTitle: true,
       ),
       body: Column(
         children: [

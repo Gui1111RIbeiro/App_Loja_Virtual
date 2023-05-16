@@ -13,14 +13,14 @@ enum FilterOptions {
   all,
 }
 
-class ProductsOverviewScreen extends StatefulWidget {
-  const ProductsOverviewScreen({Key? key}) : super(key: key);
+class ProductOverviewScreen extends StatefulWidget {
+  const ProductOverviewScreen({Key? key}) : super(key: key);
 
   @override
-  State<ProductsOverviewScreen> createState() => _ProductsOverviewScreenState();
+  State<ProductOverviewScreen> createState() => _ProductOverviewScreenState();
 }
 
-class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
+class _ProductOverviewScreenState extends State<ProductOverviewScreen> {
   bool _showFavoriteOnly = false;
   bool _isLoading = true;
 
@@ -49,7 +49,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('SNAP!'),
+        title: const Text('Loja'),
         actions: [
           PopupMenuButton(
             icon: const Icon(Icons.more_vert),

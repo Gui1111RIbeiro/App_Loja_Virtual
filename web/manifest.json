@@ -1,6 +1,6 @@
 {
-    "name": "shop",
-    "short_name": "shop",
+    "name": "testando",
+    "short_name": "testando",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

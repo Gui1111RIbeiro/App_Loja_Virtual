@@ -9,7 +9,7 @@ import '../models/product.dart';
 import '../utils/app_routes.dart';
 
 class ProductGridItem extends StatelessWidget {
-  ProductGridItem({Key? key}) : super(key: key);
+  const ProductGridItem({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -81,7 +81,7 @@ class ProductGridItem extends StatelessWidget {
           ),
           onTap: () {
             Navigator.of(context).pushNamed(
-              AppRoutes.productsDetail,
+              AppRoutes.productDetail,
               arguments: product,
             );
           },

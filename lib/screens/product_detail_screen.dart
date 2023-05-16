@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import '../models/product.dart';
 import 'map_screen.dart';
 
-class ProductsDetailScreen extends StatelessWidget {
-  const ProductsDetailScreen({super.key});
+class ProductDetailScreen extends StatelessWidget {
+  const ProductDetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +22,7 @@ class ProductsDetailScreen extends StatelessWidget {
             pinned: true,
             flexibleSpace: FlexibleSpaceBar(
               title: Text(product.name),
+              centerTitle: true,
               background: Stack(
                 fit: StackFit.expand,
                 children: [
@@ -72,7 +73,7 @@ class ProductsDetailScreen extends StatelessWidget {
                   child: Text(
                     product.description,
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                 ),
                 const SizedBox(height: 10),
@@ -82,7 +83,7 @@ class ProductsDetailScreen extends StatelessWidget {
                   child: Text(
                     'ENDEREÇO:\n${product.location.address!}',
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 18),
                   ),
                 ),
                 const SizedBox(height: 10),

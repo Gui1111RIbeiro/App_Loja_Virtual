@@ -33,7 +33,7 @@ class PlaceDetailScreen extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   fullscreenDialog: true,
-                  builder: (ctx) => MapScreen(
+                  builder: (ctx) => const MapScreen(
                     isReadOnly: true,
                   ),
                 ),

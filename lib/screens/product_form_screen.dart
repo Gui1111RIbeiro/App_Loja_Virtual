@@ -9,14 +9,14 @@ import '../utils/location_util.dart';
 import '../widgets/image_input.dart';
 import '../widgets/location_input.dart';
 
-class ProductsFormScreen extends StatefulWidget {
-  const ProductsFormScreen({super.key});
+class ProductFormScreen extends StatefulWidget {
+  const ProductFormScreen({super.key});
 
   @override
-  State<ProductsFormScreen> createState() => _ProductsFormScreenState();
+  State<ProductFormScreen> createState() => _ProductFormScreenState();
 }
 
-class _ProductsFormScreenState extends State<ProductsFormScreen> {
+class _ProductFormScreenState extends State<ProductFormScreen> {
   File? _pickedImage;
 
   final _priceFocus = FocusNode();
@@ -129,8 +129,6 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
         context,
         listen: false,
       ).saveProduct(_formData, _isImageUrl);
-
-      Navigator.of(context).pop();
     } catch (error) {
       await showDialog<void>(
         context: context,
@@ -146,6 +144,7 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
         ),
       );
     } finally {
+      Navigator.of(context).pop();
       setState(() => _isLoading = false);
     }
   }
@@ -159,7 +158,9 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
         actions: [
           IconButton(
             onPressed: _changeTypeImage,
-            icon: _isImageUrl ? Icon(Icons.camera_alt) : Icon(Icons.link),
+            icon: _isImageUrl
+                ? const Icon(Icons.camera_alt)
+                : const Icon(Icons.link),
           ),
           IconButton(
             onPressed: _submitForm,
@@ -185,8 +186,8 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
                         FocusScope.of(context).requestFocus(_priceFocus);
                       },
                       onSaved: (name) => _formData['name'] = name ?? '',
-                      validator: (_name) {
-                        final name = _name ?? '';
+                      validator: (checkName) {
+                        final name = checkName ?? '';
                         if (name.trim().isEmpty) {
                           return 'Nome é obrigatório.';
                         }
@@ -210,8 +211,8 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
                       },
                       onSaved: (price) =>
                           _formData['price'] = double.parse(price ?? '0'),
-                      validator: (_price) {
-                        final priceString = _price ?? '';
+                      validator: (checkPrice) {
+                        final priceString = checkPrice ?? '';
                         final price = double.tryParse(priceString) ?? -1;
 
                         if (price <= 0) {
@@ -229,8 +230,8 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
                       maxLines: 3,
                       onSaved: (description) =>
                           _formData['description'] = description ?? '',
-                      validator: (_description) {
-                        final description = _description ?? '';
+                      validator: (checkDescription) {
+                        final description = checkDescription ?? '';
 
                         if (description.trim().isEmpty) {
                           return 'Descrição é obrigatória.';
@@ -263,8 +264,8 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
                               onFieldSubmitted: (_) => _submitForm(),
                               onSaved: (imageUrl) =>
                                   _formData['imageUrl'] = imageUrl ?? '',
-                              validator: (_imageUrl) {
-                                final imageUrl = _imageUrl ?? '';
+                              validator: (checkImageUrl) {
+                                final imageUrl = checkImageUrl ?? '';
 
                                 if (!isValidImageUrl(imageUrl)) {
                                   return 'Informe uma Url válida!';
@@ -288,7 +289,7 @@ class _ProductsFormScreenState extends State<ProductsFormScreen> {
                               ),
                               alignment: Alignment.center,
                               child: _imageUrlController.text.isEmpty
-                                  ? Text('Informe a Url')
+                                  ? const Text('Informe a Url')
                                   : Image.network(_imageUrlController.text)),
                         ],
                       ),

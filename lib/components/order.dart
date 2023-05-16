@@ -20,9 +20,10 @@ class _OrderWidgetState extends State<OrderWidget> {
 
   @override
   Widget build(BuildContext context) {
-    final itemsHeight = (widget.order.products.length * 24.0) + 10;
+    final double itemsHeight = (widget.order.products.length * 24) + 10;
+
     return AnimatedContainer(
-      duration: Duration(milliseconds: 300),
+      duration: const Duration(milliseconds: 300),
       height: _expanded ? itemsHeight + 80 : 80,
       child: Card(
         child: Column(
@@ -42,7 +43,7 @@ class _OrderWidgetState extends State<OrderWidget> {
               ),
             ),
             AnimatedContainer(
-              duration: Duration(milliseconds: 300),
+              duration: const Duration(milliseconds: 300),
               height: _expanded ? itemsHeight : 0,
               padding: const EdgeInsets.symmetric(
                 horizontal: 15,

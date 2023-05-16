@@ -11,7 +11,7 @@ import '../utils/app_routes.dart';
 class ProductItem extends StatelessWidget {
   final Product product;
 
-  ProductItem(
+  const ProductItem(
     this.product, {
     Key? key,
   }) : super(key: key);
@@ -39,7 +39,7 @@ class ProductItem extends StatelessWidget {
               color: Theme.of(context).colorScheme.primary,
               onPressed: () {
                 Navigator.of(context).pushNamed(
-                  AppRoutes.productsForm,
+                  AppRoutes.productForm,
                   arguments: product,
                 );
               },

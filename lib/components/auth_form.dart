@@ -153,8 +153,8 @@ class _AuthFormState extends State<AuthForm>
                 decoration: const InputDecoration(labelText: 'E-mail'),
                 keyboardType: TextInputType.emailAddress,
                 onSaved: (email) => _authData['email'] = email ?? '',
-                validator: (_email) {
-                  final email = _email ?? '';
+                validator: (userEmail) {
+                  final email = userEmail ?? '';
                   if (email.trim().isEmpty || !email.contains('@')) {
                     return 'Informe um e-mail válido.';
                   }
@@ -167,8 +167,8 @@ class _AuthFormState extends State<AuthForm>
                 obscureText: true,
                 controller: _passwordController,
                 onSaved: (password) => _authData['password'] = password ?? '',
-                validator: (_password) {
-                  final password = _password ?? '';
+                validator: (userPassword) {
+                  final password = userPassword ?? '';
                   if (password.isEmpty || password.length < 5) {
                     return 'Informe uma senha válida';
                   }
@@ -193,8 +193,8 @@ class _AuthFormState extends State<AuthForm>
                       obscureText: true,
                       validator: _isLogin()
                           ? null
-                          : (_password) {
-                              final password = _password ?? '';
+                          : (userPassword) {
+                              final password = userPassword ?? '';
                               if (password != _passwordController.text) {
                                 return 'Senhas informadas não conferem.';
                               }
