@@ -2,7 +2,9 @@ APP Online Store
 ==========
 ## A Flutter Project
 
-![](https://icon-library.com/images/shopping-app-icon/shopping-app-icon-4.jpg)
+<p float="middle">
+  <img src="assets/icons/icon.png"/>
+</p>
 
 # Index
 
