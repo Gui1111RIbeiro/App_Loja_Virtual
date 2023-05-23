@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.0.3
-  intl: ^0.17.0
+  intl: ^0.18.1
   http: ^0.13.5
   shared_preferences: ^2.0.15
   path: ^1.8.2
@@ -24,16 +24,17 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.11.0
+  flutter_launcher_icons: ^0.13.1
 
   flutter_lints: ^2.0.1
 
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icons/icon.png"
   adaptive_icon_background: "#000000"
   adaptive_icon_foreground: "assets/icons/icon.png"
+  remove_alpha_ios: true
   
 flutter:
   uses-material-design: true
